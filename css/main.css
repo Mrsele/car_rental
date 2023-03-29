@@ -1,0 +1,506 @@
+/********* home page css*****************/
+
+
+
+
+/********End of Home page*********/
+/* fot the notification bell*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* For profile */
+
+
+.action_userpage{
+
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  }
+  
+  .action_userpage .profile_profile{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  }
+  
+  
+  .action_userpage .profile_profile img{
+  
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  }
+  
+  .action_userpage .menu_users{
+  
+  position: absolute;
+  top: 120px;
+  right: -10px;
+  padding: 10px 20px;
+  background: #fff;
+  width: 200px;
+  box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  }
+  .action_userpage .menu_users.active
+  {
+    top: 80px;
+  
+    visibility: visible;
+    opacity: 1;
+  
+  }
+  
+  
+  .action_userpage .menu_users:before{
+  content: '';
+  position: absolute ;
+  top: -5px;
+  right: 20px;
+  width: 15px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+  }
+  
+  .action_userpage .menu_users ul li{
+  
+  
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .action_userpage .menu_users ul li img{
+  
+  max-width: 20px;
+  margin-right: 20px;
+  opacity: 0.5;
+  transition: 0.5s;
+  }
+  
+  .action_userpage .menu_users ul li:hover  img
+  {
+  
+  
+  opacity: 1;
+  
+  }
+  
+  .action_userpage .menu_users ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+  
+  }
+  .action_userpage .menu_users ul li:hover a{
+  
+  color: #ff5d94;
+  
+  
+  
+  }
+  
+
+
+/* the end of profile */
+.everybody{
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4, 9, 30, 0.7)),url("../img/b22.jfif");
+background-position:center;
+background-size: cover;
+position: relative;  
+  
+height: 80%;
+
+
+}
+
+.move{
+
+right: -200px;
+position: relative;;
+top:-50px;
+
+
+}
+.logo{
+
+ margin-left: 0%;
+ padding-right: 90%;
+float:right;
+}
+
+.booker{
+
+padding-bottom: 85px;
+
+}
+
+    /*Q234`1`*/.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+    float: left;
+	text-decoration: none;
+
+
+/*	color: #003300;*/
+/*	font-weight: bold;*/
+}
+header{
+  width: 100%;
+    height: 150px;
+    background-color:rgb(52, 86, 139);
+    margin-top: 0;
+    margin-left: 0;
+
+  }
+header nav{
+  float: right;
+ opacity: 1;
+ text-decoration:none;
+ margin-top: 0;
+    margin-left: 0;
+
+}
+
+header nav ul{
+  margin-top: 0px;
+      list-style: none;
+      overflow: hidden;
+      float: left;
+margin-right: 130px;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+
+}
+header nav ul li:hover{
+ color:#ffff80;
+
+
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 120px;
+  color: rgb(207, 48, 48);
+
+
+
+
+
+}
+.nav ul li a{
+font-size: 20px;
+  text-decoration: none;
+  color: white;
+position: relative;
+}
+
+
+.nav ul li a:hover{
+  transition: 1s;
+  font-size: 20px;
+
+ }
+/*
+
+*/
+
+
+
+
+
+.properties_list{
+  display:inline-block;;
+
+
+  
+}
+.logocar{
+
+padding-left: 8em;
+float: left;
+}
+.link{
+top: 25px;
+height: 50px;
+
+}
+.displayer{
+  display: inline-grid;
+
+
+}
+
+.footer{
+margin-bottom: -50px;
+position: relative;
+   margin-top: -9px;
+top: 400px;
+text-align: center;
+background-color:  #b3fff0;
+
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color:  #1a1a1a;
+}
+
+
+
+
+
+
+
+/* logiin */
+
+
+
+.forminput{
+
+  width: 80%;
+  height: 200px;
+ text-align: center;
+  margin-top: 40px;
+
+}
+
+.inputer{
+
+
+
+}
+.buttons{
+
+text-align: center;
+color: black;
+  height: 40px;
+  width: 111px;
+  border-radius: 6px;
+  background-image: url("img/ar.png");
+}
+.booker{
+  height: 300px;
+  top: 300px;
+}
+.adminbody{
+background-image: url("/img/image20.jpg");
+
+
+}
+.forminputadmin{
+
+
+  height: 220px;
+     width:40%;
+     padding-left:300px;
+     margin-right: 200px;
+     text-align: center;
+    border-radius: 20px;
+    background-color: menu;
+
+}
+
+.textbox{
+
+width: 90%;
+color: #f2f1f1;
+position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.herobtn{
+
+display: inline-block;
+text-decoration: none;
+color: #fff;
+border: 1px solid #fff;
+padding: 12px 34px;
+font-size: 13px;
+background: transparent;
+position: relative;
+cursor: pointer;
+
+
+}
+.herobtn:hover{
+
+  border:1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+.cardetail{
+
+
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+background:#070808;
+
+}
+
+.cardetail:hover{
+
+  border:1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+
+}
+.searchs{
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 50%;
+
+
+}
+@media(max-width:700px){
+
+
+
+
+}
+
+.carlist{
+
+  background-image: linear-gradient(rgba(0, 1, 3, 0.7),rgba(164, 127, 172, 0.7));
+  background-position:center;
+  background-size: cover;
+  position: relative;  
+
+}
+
+/*  the booking page  */
+.booking_form{
+  margin: auto;
+  width: 50%;
+/*  border: 1px solid rgb(255, 255, 255);*/
+  padding: 30px;
+margin-left:0%;/*
+color: #fff;
+opacity: 0.5;
+padding-top: 400px;;
+*/}
+
+
+
+.inside_booking_form{
+
+  text-decoration: none!important;
+
+
+   margin: auto;
+  width: 60%;
+  padding: 0px;
+margin-right:0%;
+color: #fff;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.the_input{
+
+  height: 30px;
+  width: 100%;
+font-size: large;
+background-color: #f2f1f1;
+border:1px solid #11d411;
+
+
+
+
+}
+.move{
+margin-left:40px;
+width: 300px;
+height: 300px;
+position:absolute;
+text-decoration: none;
+
+}
+
+/*
+.move li{
+
+width: 63%;
+
+}
+*/
+.the_button{
+
+
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #1c89ff;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+ text-decoration: n;
+  
+}
+
+.the_button:hover{
+
+
+    background-color: transparent;
+    border-color: #fff;
+    transition: all .1s ease-in-out;
+  }
+
