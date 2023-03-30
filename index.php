@@ -4,7 +4,7 @@
 <?php
 	session_start();
 	// error_reporting("E-NOTICE");
-  ini_set('display_errors', true);
+
 ?>
   <head>
 
@@ -32,7 +32,7 @@
 
 
 <?php
-						if(!$_SESSION['email'] && (!$_SESSION['pass'])){
+						if(!isset($_SESSION['email']) && !isset($_SESSION['pass'])){
 					?>
 <ul>
 
@@ -77,7 +77,7 @@ if($num > 0){
 
 
 <?php
-	if($_SESSION['email'] && ($_SESSION['pass'])){
+	if(isset($_SESSION['email']) && isset($_SESSION['pass'])){
   ?>
 
 <div class="action_userpage ">
@@ -85,7 +85,7 @@ if($num > 0){
 <?php
   include 'includes/config.php';
 
-  session_start();
+
 
 $email=$_SESSION['email'];
 $select = "SELECT * from customers WHERE email='$email' ";
