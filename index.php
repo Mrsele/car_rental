@@ -3,7 +3,8 @@
 <html lang="en" dir="ltr">
 <?php
 	session_start();
-	error_reporting("E-NOTICE");
+	// error_reporting("E-NOTICE");
+  ini_set('display_errors', true);
 ?>
   <head>
 
